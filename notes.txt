@@ -1,0 +1,10 @@
+Chapter 9
+Create a random string of digits for use as a remember token.
+Place the token in the browser cookies with an expiration date far in the future.
+Save the hash digest of the token to the database.
+Place an encrypted version of the user’s id in the browser cookies.
+When presented with a cookie containing a persistent user id, find the user in the database using the given id, and verify that the remember token cookie matches the associated hash digest from the database.
+
+# Define a user variable using the fixtures.
+# Call the remember method to remember the given user.
+# Verify that current_user is equal to the given user.
