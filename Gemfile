@@ -9,6 +9,12 @@ gem 'rails', '5.1.4'
 gem 'bootstrap-sass', '3.3.7'
 # For secure encrypted passwords
 gem 'bcrypt', '3.1.11'
+# To populate database with sample data
+gem 'faker', '1.7.3'
+# Adds pagination to website
+gem 'will_paginate', '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
+
 gem 'squasher'
 # Use Puma as the app server
 gem 'puma', '3.9.1'
